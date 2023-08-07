@@ -9,7 +9,7 @@ public class ToKilometerConvertor {
         yards = 385;
 
         double kilometersPerMile = 1.609;
-        double yardsPerMile = 1760;
+        double yardsPerMile = 1760.0;
         double totalMiles = miles + (yards / yardsPerMile);
         kilometers = totalMiles * kilometersPerMile;
 
